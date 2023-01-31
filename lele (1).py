@@ -170,6 +170,7 @@ df=[['polararity','subjectivity']] = df['reviewText'].apply()(lambda Text:pd.ser
 for inder, row in df['reviewText'].iteritems():
     #creating an iterartor of the values
     score=SentimentIntensityAnalyzer.polarity_scores(row)
+    #the closer the score of the polarity is to 1, the more positive the comment is
     #getting the score
     neg=score['negative']
     #negative scores
