@@ -147,6 +147,7 @@ df.reviewText.head()
 reviewExample=df.reviewText[2031]
 print(reviewExample)
 reviewExample=re.sub("[^a-zA-Z]","", reviewExample)
+#getting rif of of punctutatuon so itll be easier for he machine to comprehend
 print(reviewExample)
 reviewExample=reviewExample.lower().split()
 print(reviewExample)
