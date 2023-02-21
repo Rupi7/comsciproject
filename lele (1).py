@@ -200,5 +200,5 @@ catagoricalVariSum(df,'sentiment')
 #https://thecleverprogrammer.com/2021/07/20/amazon-product-reviews-sentiment-analysis-with-python/
 #https://medium.com/@eesraerkan/sentiment-analysis-of-product-reviews-on-amazon-com-9bde346519b8
 #https://ashleygingeleski.com/2021/03/31/sentiment-analysis-of-product-reviews-with-python-using-nltk/
-#alot of my code was helped by my dad and i learned and understood why my program does what it does from simplilearn's amaazon analysis video, some other bits of my code are from stack overflowe
+#alot of my code i learned and understood why my program does what it does from simplilearn's amaazon analysis video, some other bits of my code are from stack overflowe
 
